@@ -1,0 +1,17 @@
+{
+    "MsBuild": {
+        "UseLegacySdkResolver": false,
+        "EnablePackageAutoRestore": true
+    },
+    "RoslynExtensionsOptions": {
+        "EnableAnalyzersSupport": true
+    },
+    "FileOptions": {
+        "SystemExcludeSearchPatterns": [
+            "**/Library/**",
+            "**/obj/**",
+            "**/.git/**",
+            "**/Logs/**"
+        ]
+    }
+}
